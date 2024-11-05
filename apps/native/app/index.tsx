@@ -1,17 +1,17 @@
 "use dom";
-// import { Button } from "@repo/ui/components/ui/button";
+
+import { Button } from "@repo/ui/components/ui/button";
+import { Card, CardHeader, CardTitle } from "@repo/ui/components/ui/card";
 
 const Page = () => {
   return (
-    <div
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "red",
-      }}
-    >
-      <p>Hello World ?????</p>
+    <div className="flex flex-1 justify-center items-center bg-red-500">
+      <Button>Click me</Button>
+      <Card>
+        <CardHeader>
+          <CardTitle>Card Title</CardTitle>
+        </CardHeader>
+      </Card>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import "@repo/ui/globals.css";
 import { Slot } from "expo-router";
 
 export default function HomeLayout() {
