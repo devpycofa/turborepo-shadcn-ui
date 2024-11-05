@@ -1,10 +1,18 @@
-import { Text, View } from "react-native";
+"use dom";
+// import { Button } from "@repo/ui/components/ui/button";
 
 const Page = () => {
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Hello World ?????</Text>
-    </View>
+    <div
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "red",
+      }}
+    >
+      <p>Hello World ?????</p>
+    </div>
   );
 };
 
